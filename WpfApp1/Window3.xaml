@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,382,10,0"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="480,382,192,0"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="316,382,356,0"/>
+        <TextBlock TextWrapping="Wrap" Margin="328,10,10,57" FontSize="18"> «Вайолет Эвергарден» (яп. ヴァイオレット・エヴァーガーデン Вайорэтто Эва:га:дэн) — ранобэ Каны Акацуки и иллюстратора Акико Такасэ. Аниме-адаптация ранобэ от студии Kyoto Animation транслировалась с января по апрель 2018 года. В июле 2018 года вышла дополнительная 14-я серия. Также по мотивам книг были запланированы два полнометражных продолжения. Первый фильм, «Вайолет Эвергарден: Вечность и призрак пера» вышел в японский прокат 6 сентября 2019 года, второй фильм, Violet Evergarden the Movie, был запланирован к выходу на 24 апреля 2020 года, но в связи с пандемией COVID-19 премьеру отложили на 18 сентября[1]</TextBlock>
+        <Image Margin="0,-5,489,0" Source="/6293654da852aa8260fab9da16693330.jpg" Stretch="Fill"/>
+    </Grid>
+</Window>

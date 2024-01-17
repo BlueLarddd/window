@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.Window15"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window15" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,372,10,0" Height="37" VerticalAlignment="Top"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="484,372,188,10"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="311,372,361,10"/>
+        <Image Margin="0,0,475,-21" Source="/1624008-1532824.jpg" Stretch="Fill"/>
+        <TextBlock TextWrapping="Wrap" Margin="330,0,10,67" FontSize="18"> Золушка (англ. Cinderella, фр. Cendrillon) — главная героиня диснеевского мультфильма Золушка, снятого по мотивам сказки Шарля Перро «Золушка». Золушка — принцесса вымышленного французского королевства. Стала принцессой, выйдя замуж за принца. Родилась в обычной семье. Когда её мать умерла, её отец женился на другой женщине, леди Тремейн. Имеет двух сводных сестёр — Дризеллу и Анастасию. Терпеливая и нежная девушка. По происхождению француженка.
+
+Золушка также является второй официальной принцессой Диснея, и одной из самых старших из них (вместе с Тианой и Рапунцель) ей 19 лет.</TextBlock>
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.Window12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window12" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,382,10,0"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="480,382,192,0"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="311,382,361,0"/>
+        <Image Margin="0,-17,494,-15" Source="/158529.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.135"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.612"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock TextWrapping="Wrap" Margin="318,0,10,44" FontSize="16"> «Чёрное зе́ркало» (англ. Black Mirror) — британский научно-фантастический телесериал-антология, созданный Чарли Брукером. Лейтмотив сериала — влияние информационных технологий на человеческие отношения. Каждая серия не связана с предыдущими ни сюжетом, ни актёрами, ни временем и ни местом повествования. По словам Брукера, все сюжеты объединяет лишь сатира на тот образ жизни, что распространён в современном обществе.
+
+Чарли Брукер объясняет, что название «Чёрное зеркало» является отсылкой к чёрным дисплеям электронных гаджетов, которые есть в каждом доме или квартире. «Если технологии — это наркотики, а они действительно похожи на наркотики, то каковы будут побочные эффекты? Пограничная область между наслаждением и дискомфортом и есть место действия моего драматического сериала „Чёрное зеркало“. Вы найдёте чёрное зеркало на каждой стене, на каждом столе, в каждой ладони: холодный и блестящий экран телевизора, монитора, смартфона».</TextBlock>
+    </Grid>
+</Window>

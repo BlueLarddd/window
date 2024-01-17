@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.Window17"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window17" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,372,10,0" Height="37" VerticalAlignment="Top"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="484,372,188,10"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="311,372,361,10"/>
+        <Image Margin="0,0,472,-48" Source="/1628728-1594186.jpeg" Stretch="Fill"/>
+        <TextBlock TextWrapping="Wrap" Margin="333,10,5,67" FontSize="16"> «Рапунцель: Запутанная история» (англ. Tangled) — американский полнометражный анимационный фильм режиссёров Натана Грено и Байрона Ховарда, снятый по мотивам сказки братьев Гримм «Рапунцель» в 2010 году. Премьера фильма состоялась 24 ноября (в России 25 ноября) 2010 года. Рапунцель является 10-й по счёту диснеевской принцессой. Это 50-й полнометражный анимационный фильм студии Walt Disney Pictures, на сегодняшний день являющийся самым дорогим фильмом подобного вида: его бюджет составил 260 млн $.
+
+Это первый трёхмерный мультфильм Дисней, сделанный в классическом стиле.</TextBlock>
+    </Grid>
+</Window>

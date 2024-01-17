@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window5" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,374,10,10"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="484,372,188,10"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="326,372,346,10"/>
+        <Image Margin="0,-7,479,-14" Source="/Rozen.Maiden.full.208968.jpg" Stretch="Fill"/>
+        <TextBlock TextWrapping="Wrap" Margin="335,0,10,57" FontSize="15"> Rozen Maiden (яп. ローゼンメイデン （薔薇乙女） ро:дзэн мэйдэн (бара отомэ), букв. Девы Розена) — манга, созданная группой Peach-Pit, первый том которой вышел в сентябре 2002 года, а последний — в июне 2007. Продолжение истории, названное «Rozen Maiden: Tales», начало выходить 17 апреля 2008 года и закончилось 23 января 2014 года. Так же с 19 февраля 2016 по 19 марта 2019 года выпускалась манга «Rozen Maiden: Zero» (яп. ローゼンメイデン0-ゼロ-).
+
+Основой сюжета является преодоление Дзюном Сакурадой, учеником средней школы, психологических проблем; в этом ему помогают волшебные куклы — Розен Мэйден. Концепция сюжета включает в себя элементы сёнэна, мистики, а также популярный образ лолиты.
+
+В 2004 году студия Nomad выпустила аниме-экранизацию манги «Rozen Maiden», которая была достаточно успешна, чтобы продолжить работы по экранизации произведения. В 2005-2006 годах вышел второй сезон аниме-сериала «Rozen Maiden: Träumend».</TextBlock>
+    </Grid>
+</Window>

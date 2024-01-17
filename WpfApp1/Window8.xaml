@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.Window8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window8" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,-3,488,0" Source="/1623199.jpg" Stretch="Fill"/>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,356,10,26"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="486,356,186,0" Height="26" VerticalAlignment="Top"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="311,356,361,26"/>
+        <TextBlock TextWrapping="Wrap" FontSize="24" Margin="311,0,10,96"> «Бума́жный дом» (исп. La casa de papel) — испанский телесериал в жанре криминальной драмы. Премьерный показ состоялся 2 мая 2017 года на телеканале Antena 3. Успех сериала в Испании заинтересовал американский стриминговый сервис Netflix, который купил права на международный показ.</TextBlock>
+    </Grid>
+</Window>

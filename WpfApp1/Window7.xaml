@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.Window7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window7" Height="450" Width="800" Background="Orange">
+    <Grid>
+        <Button x:Name="Ser1" Background="Beige" Content="Бумажный дом" Click="Ser1_Click" Margin="65,106,533,250"/>
+        <Button x:Name="Ser2" Background="Beige" Content="Острые козырьки" Click="Ser2_Click" Margin="310,106,310,250"/>
+        <Button x:Name="Ser3" Background="Beige" Content="Ведьмак" Click="Ser3_Click" Margin="555,106,65,250"/>
+        <Button x:Name="Ser4" Background="Beige" Content="Ривердейл" Click="Ser4_Click" Margin="177,238,443,118"/>
+        <Button x:Name="Ser5" Background="Beige" Content="Черное зеркало" Click="Ser5_Click" Margin="444,238,176,118"/>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,382,10,0"/>
+    </Grid>
+</Window>

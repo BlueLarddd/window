@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.Window16"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window16" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,372,10,0" Height="37" VerticalAlignment="Top"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="484,372,188,10"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="311,372,361,10"/>
+        <Image Margin="-7,0,494,-14" Source="/mulan.jpg" Stretch="Fill"/>
+        <TextBlock TextWrapping="Wrap" Margin="317,10,21,77" FontSize="16"> «Мула́н» (англ. Mulan) — полнометражный мультипликационный фильм, выпущенный 19 июня 1998 года студией Walt Disney Pictures и ставший 36-м по счёту полнометражным мультипликационным фильмом среди всех выпущенных студией. В основу фильма положена средневековая китайская баллада о Хуа Мулань — женщине, вступившей в ряды армии. Мультфильм был первым из трёх, созданных на студии Disney-MGM Studios в Орландо, Флорида. Режиссурой занимались Тони Бэнкрофт и Барри Кук. Этот фильм является частью возрождения диснеевских фильмов, начавшегося в 1989 году.
+
+По техническим характеристикам это первый мультфильм Диснея, применивший звук DTS и SDDS. Над сценарием мультфильма в общей сложности работало 32 человека.</TextBlock>
+    </Grid>
+</Window>

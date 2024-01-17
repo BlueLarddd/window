@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,382,10,0"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="480,382,192,0"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="311,382,361,0"/>
+        <Image Margin="-5,-10,494,0" Source="/48686.jpg" Stretch="Fill"/>
+        <TextBlock TextWrapping="Wrap" Margin="306,10,10,57" FontSize="16"> K-On! (яп. けいおん! Кэй-он!) — комедийная манга-ёнкома, написанная и иллюстрированная Kakifly. С 3 апреля по 25 июня 2009 года в Японии проходила трансляция одноимённой аниме-адаптации, созданной студией Kyoto Animation. Аниме-сериал включает в себя два сезона: первый из 12 основных и 1 дополнительной серии, и второй, который транслировался по TBS с апреля по сентябрь 2010 года, включивший 24 эпизода и 2 дополнительных серии. К обоим сезонам также было выпущено по одному OVA эпизоду.
+
+Название манги и аниме происходит от японского слова для обозначения лёгкой музыки, каруй онгаку (яп. 軽音楽). Это понятие не следует путать с западным значением термина «Light music (англ.)» — более точным переводом является поп-музыка.
+
+Со временем у аниме набралось очень много фанатов, и в Японии для них состоялось два концерта: в 2009 и 2011 годах. Под аккомпанемент профессиональных музыкантов выступали актрисы, озвучивавшие главные роли.</TextBlock>
+    </Grid>
+</Window>

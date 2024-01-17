@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.Window9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window9" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,382,10,0"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="480,382,192,0"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="311,382,361,0"/>
+        <Image Margin="-12,0,489,-14" Source="/peaky-blinders-big-poster.jpg" Stretch="Fill"/>
+        <TextBlock TextWrapping="Wrap" Margin="320,0,10,57" FontSize="16"> «Острые козырьки» (англ. Peaky Blinders) — британский криминальный драматический сериал, созданный Стивеном Найтом в 2013 году для телеканала BBC Two и повествующий о деятельности преступного клана Шелби в Бирмингеме в 1920-е годы.
+
+Первый сезон гангстерского сериала, состоящий из шести эпизодов, собрал аудиторию в 2,4 млн зрителей. 8 ноября 2014 года руководство телеканала BBC объявило, что продлевает сериал на третий сезон, который стартовал 5 мая 2016. Сериал получил премию National Television Awards (2019 г.) в номинации «лучший драматический сериал».
+
+26 мая 2016 года BBC продлил сериал сразу на два сезона (четвёртый и пятый). 5 мая 2018 года Стивен Найт сказал, что «мы определённо будем делать шестой сезон и, вероятно, сделаем седьмой». Найт указал, что как только сериал будет завершён, за ним может последовать фильм или спин-офф.</TextBlock>
+    </Grid>
+</Window>

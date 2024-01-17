@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window6" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,382,10,0"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="480,382,192,0"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="319,382,353,0"/>
+        <Image Margin="0,0,481,0" Source="/Angel.Beats!.full.351738.jpg" Stretch="Fill"/>
+        <TextBlock TextWrapping="Wrap" Margin="324,0,0,57" FontSize="16">Angel Beats! (яп. エンジェル ビーツ! Эндзэру Би:цу!, букв. «Ангельские ритмы!») — 13-серийный аниме-сериал, созданный компаниями Key, P.A. Works и Aniplex. Режиссёром выступил Сэйдзи Киси, а автором оригинального сюжета стал Дзюн Маэда, автор других проектов Key, таких как аниме, манга и визуальные новеллы Kanon, Air, Clannad и Little Busters!. Показ аниме в Японии длился с 3 апреля по 26 июня 2010 года; 22 декабря того же года вышла OVA-серия. Сюжет затрагивает тему жизни после смерти и повествует о студенте Отонаси Юдзуру, потерявшем память о своей прошлой жизни. Он встречает девушку по имени Юри, которая предлагает ему присоединиться к возглавляемой ею организации «Фронт загробного мира», борющейся против Бога и президента школьного совета Тэнси (ангел), обладающего сверхъестественными способностями.</TextBlock>
+    </Grid>
+</Window>

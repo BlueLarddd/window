@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.Window14"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window14" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Back" Background="WhiteSmoke" Content="Назад~" Click="Back_Click" Margin="662,372,10,0" Height="40" VerticalAlignment="Top"/>
+        <Button x:Name="Info" Background="LemonChiffon" Content="Сюжет" Click="Info_Click" Margin="484,372,188,0"/>
+        <Button x:Name="Pers" Background="LemonChiffon" Content="Персонажи" Click="Pers_Click" Margin="311,372,361,0"/>
+        <Image Margin="0,-39,489,0" Source="/kinogallery.com_the-lion-king_posters_26604false.jpg" Stretch="Fill"/>
+        <TextBlock TextWrapping="Wrap" Margin="323,0,-1,60" FontSize="14" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.264"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="1.839"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform> «Король Лев» (англ. The Lion King) — 32-й по счёту классический полнометражный мультфильм, выпущенный студией Диснея, о львёнке по имени Симба, которому предстоит пройти через предательство и изгнание, найти преданных друзей и свою любовь, а также стать истинным Королём. «Король Лев» впервые был показан 15 июня 1994 года в нескольких городах США, а в широкий прокат мультфильм вышел 24 июня. Также 25 декабря 2002 года состоялась IMAX-премьера переработанной версии «Короля Льва» с улучшенным качеством изображения и звука. 16 сентября 2011 года состоялась повторная премьера этого мультфильма в формате 3D и IMAX 3D.
+
+Фильм завоевал две премии «Оскар» и две премии «Золотой глобус»: за песню Элтона Джона «Can You Feel the Love Tonight», (Первый Оскар и Золотой Глобус Элтона Джона за его карьеру), и за музыку Ханса Циммера, одну премию «Золотой глобус» за лучший фильм — комедия или мюзикл и три премии «Грэмми». Быстро стал самым продаваемым мультфильмом на VHS всех времён и народов: 4,5 млн лент были проданы в первый же день и в конечном итоге продажи составили более 30 млн, прежде чем эти версии домашнего видео вошли в мораторий в 1997 году.</TextBlock>
+    </Grid>
+</Window>
